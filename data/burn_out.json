@@ -1,42 +1,15 @@
 {
-  "publisher": "Éditions Burn out",
-  "fediverse_id": "@burnout_editions@mastodon.social",
+  "publisher": "Éditions Burn~Août",
+  "fediverse_id": " @editionsburnaout@piaille.fr ",
   "books": [
     {
-      "title": "Burn-out : Le syndrome d'épuisement professionnel",
-      "author": "Pascal Marichalar",
-      "year": 2018,
-      "price": "19.90 €",
-      "description": "Une analyse complète du burn-out, de ses causes, de ses symptômes et des moyens de le prévenir.",
-      "url": "https://editions-burn-out.fr/burn-out-le-syndrome-depuisement-professionnel/",
-      "cover_url": "https://editions-burn-out.fr/wp-content/uploads/2018/05/9782956055005-212x300.jpg"
-    },
-    {
-      "title": "Le Bore-out : Quand l'ennui au travail rend malade",
-      "author": "Philippe Zawieja et Françoise Guéguen",
-      "year": 2019,
-      "price": "18.50 €",
-      "description": "Le bore-out, ou syndrome d'épuisement par l'ennui au travail.",
-      "url": "https://editions-burn-out.fr/le-bore-out/",
-      "cover_url": "https://editions-burn-out.fr/wp-content/uploads/2019/05/9782956055012-212x300.jpg"
-    },
-    {
-      "title": "Les Risques psycho-sociaux au travail",
+      "title": "DQuels problèmes les artistes éditeurices peuvent-iels résoudre ?",
       "author": "Collectif",
-      "year": 2020,
-      "price": "22.00 €",
-      "description": "Un ouvrage collectif pour comprendre les risques psycho-sociaux au travail.",
-      "url": "https://editions-burn-out.fr/les-risques-psycho-sociaux-au-travail/",
-      "cover_url": "https://editions-burn-out.fr/wp-content/uploads/2020/05/9782956055029-212x300.jpg"
-    },
-    {
-      "title": "Télétravail : Les pièges à éviter",
-      "author": "Jean-Pierre Brun",
-      "year": 2021,
-      "price": "17.90 €",
-      "description": "Le télétravail s'est généralisé, mais il comporte des risques : isolement, surcharge de travail.",
-      "url": "https://editions-burn-out.fr/teletravail-les-pieges-a-eviter/",
-      "cover_url": "https://editions-burn-out.fr/wp-content/uploads/2021/05/9782956055036-212x300.jpg"
+      "year": 2018,
+      "price": "5.00 €",
+      "description": "Une analyse complète du burn-out, de ses causes, de ses symptômes et des moyens de le prévenir.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/3-quels-problemes-les-artistes-editeurices-peuvent-iels-resoudre-.html",
+      "cover_url": "https://www.editionsburnaout.fr/publication/brochure/QUELS_visu.png"
     }
   ]
 }
