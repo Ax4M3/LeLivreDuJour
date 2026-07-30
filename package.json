@@ -8,7 +8,7 @@
   "test": "node index.js"
   },
   "dependencies": {
-    "mastodon-api": "^2.2.1",
+    "mastodon-api": "latest",
     "node-fetch": "^3.3.2"
   }
 }
