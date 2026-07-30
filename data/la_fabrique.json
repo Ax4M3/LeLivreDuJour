@@ -3,40 +3,22 @@
   "fediverse_id": " @Lafabrique@mastodon.social ",
   "books": [
     {
-      "title": "Le Capital au XXIe siècle",
-      "author": "Thomas Piketty",
-      "year": 2013,
-      "price": "24.00 €",
-      "description": "Une analyse approfondie des inégalités économiques et de la concentration des richesses dans les sociétés contemporaines.",
-      "url": "https://la-fabrique.fr/le-capital-au-xxie-siecle/",
-      "cover_url": "https://la-fabrique.fr/wp-content/uploads/2020/05/9782358720256-724x1024.jpg"
+      "title": "Que fait la police ?",
+      "author": "Paul Rocher",
+      "year": 2022,
+      "price": "14.00 €",
+      "description": "Peut-on pour autant se passer de police ? En s’inspirant des exemples sud-africain et nord-irlandais, où les habitants ont expérimenté des formes de gestion des conflits indépendantes de l’appareil d’État, Paul Rocher dégage les voies possibles d’un monde sans police.",
+      "url": "https://lafabrique.fr/que-fait-la-police/",
+      "cover_path": "./images/lafabrique1.png"
     },
     {
-      "title": "La Société automatisée",
-      "author": "Bernard Stiegler",
-      "year": 2019,
-      "price": "19.00 €",
-      "description": "Bernard Stiegler explore l'impact des technologies numériques sur la société, le travail et la pensée.",
-      "url": "https://la-fabrique.fr/la-societe-automatisee/",
-      "cover_url": "https://la-fabrique.fr/wp-content/uploads/2019/05/9782358721598-724x1024.jpg"
-    },
-    {
-      "title": "Le Nouvel Esprit du capitalisme",
-      "author": "Luc Boltanski et Ève Chiapello",
-      "year": 1999,
-      "price": "22.50 €",
-      "description": "Une analyse sociologique des mutations du capitalisme depuis les années 1970.",
-      "url": "https://la-fabrique.fr/le-nouvel-esprit-du-capitalisme/",
-      "cover_url": "https://la-fabrique.fr/wp-content/uploads/2019/05/9782913372147-724x1024.jpg"
-    },
-    {
-      "title": "La Fabrication du crétin digital",
-      "author": "Michel Desmurget",
-      "year": 2019,
-      "price": "21.00 €",
-      "description": "Une critique des effets des écrans sur le développement intellectuel des enfants.",
-      "url": "https://la-fabrique.fr/la-fabrication-du-cretin-digital/",
-      "cover_url": "https://la-fabrique.fr/wp-content/uploads/2019/10/9782358721864-724x1024.jpg"
+      "title": "« État de droit », ordre bourgeois",
+      "author": "Elsa Marcel",
+      "year": 2026,
+      "price": "14.00 €",
+      "description": "Face aux gouvernements liberticides, aux violences policières, à la réaction coloniale en Kanaky ou au patronat radicalisé, plus il devient nécessaire de se défendre en justice, plus il est difficile de le faire.",
+      "url": "https://lafabrique.fr/etat-de-droit-ordre-bourgeois/",
+      "cover_path": "./images/lafabrique2.png"
     }
   ]
 }

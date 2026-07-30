@@ -1,6 +1,5 @@
 import { readdirSync, readFileSync, writeFileSync, existsSync } from 'fs';
 import { createRestAPIClient } from 'masto';
-import fetch from 'node-fetch';
 
 const client = createRestAPIClient({
   url: process.env.MASTODON_BASE_URL,
@@ -73,22 +72,24 @@ function formaterPost(livre) {
   return post;
 }
 
-async function uploaderImage(imageUrl) {
+async function uploaderImage(imagePath) {
   try {
-    const response = await fetch(imageUrl);
-    if (!response.ok) {
-      throw new Error(`Impossible de télécharger l'image: ${response.statusText}`);
+    const cheminFichier = imagePath.startsWith('./') ? imagePath : `./${imagePath}`;
+    
+    if (!existsSync(cheminFichier)) {
+      throw new Error(`Le fichier image local est introuvable : ${cheminFichier}`);
     }
-    const arrayBuffer = await response.arrayBuffer();
+
+    const imageBuffer = readFileSync(cheminFichier);
     
     const attachment = await client.v2.media.create({
-      file: new Blob([arrayBuffer], { type: 'image/jpeg' }),
+      file: new Blob([imageBuffer], { type: 'image/jpeg' }),
       description: `Couverture du livre`
     });
 
     return attachment.id;
   } catch (error) {
-    console.error(`⚠️ Erreur lors de l'upload de l'image ${imageUrl}:`, error.message);
+    console.error(`⚠️ Erreur lors de l'upload local de l'image ${imagePath}:`, error.message);
     return null;
   }
 }
@@ -133,7 +134,7 @@ async function publierLivre() {
   console.log('📌 Éditeur :', livreAleatoire.publisher);
   console.log('💰 Prix :', livreAleatoire.price);
   if (mediaId) {
-    console.log('🖼️ Image uploadée avec succès.');
+    console.log('🖼️ Image uploadée avec succès depuis le stockage local.');
   }
 }
 

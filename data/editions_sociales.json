@@ -2,40 +2,13 @@
   "publisher": "Les Éditions sociales",
   "books": [
     {
-      "title": "Le Marxisme aujourd'hui",
-      "author": "Collectif",
-      "year": 2021,
-      "price": "18.00 €",
-      "description": "Un recueil d'articles analysant la pertinence du marxisme dans le monde contemporain.",
-      "url": "https://www.editions-sociales.fr/le-marxisme-aujourdhui/",
-      "cover_url": "https://www.editions-sociales.fr/wp-content/uploads/2021/05/9782353670456-212x300.jpg"
-    },
-    {
-      "title": "Le Capital de Marx - Livre I",
-      "author": "Karl Marx",
-      "year": 2016,
-      "price": "29.90 €",
-      "description": "Édition annotée et commentée du Livre I du Capital.",
-      "url": "https://www.editions-sociales.fr/le-capital-livre-i/",
-      "cover_url": "https://www.editions-sociales.fr/wp-content/uploads/2016/09/9782353670012-212x300.jpg"
-    },
-    {
-      "title": "Féminisme et révolution",
-      "author": "Claudia Jones",
-      "year": 2020,
-      "price": "16.00 €",
-      "description": "Textes de Claudia Jones sur l'intersection des luttes de classe, de race et de genre.",
-      "url": "https://www.editions-sociales.fr/feminisme-et-revolution/",
-      "cover_url": "https://www.editions-sociales.fr/wp-content/uploads/2020/03/9782353670357-212x300.jpg"
-    },
-    {
-      "title": "Écologie et socialisme",
-      "author": "Michael Löwy",
-      "year": 2014,
-      "price": "14.50 €",
-      "description": "Michael Löwy explore les liens entre écologie et socialisme.",
-      "url": "https://www.editions-sociales.fr/ecologie-et-socialisme/",
-      "cover_url": "https://www.editions-sociales.fr/wp-content/uploads/2014/09/9782353670088-212x300.jpg"
+      "title": "Découvrir Rimbaud",
+      "author": "Alix Stephan",
+      "year": 2026,
+      "price": "12.00 €",
+      "description": "Cet ouvrage propose un parcours dans l’oeuvre d’Arthur Rimbaud (1854-1891), en suivant les tensions qui la traversent : de la révolte à la liberté, de la critique du pouvoir au soutien à la Commune,...",
+      "url": "https://editionssociales.fr/catalogue/decouvrir-rimbaud/",
+      "cover_path": "./images/edsociales1.png"
     }
   ]
 }
