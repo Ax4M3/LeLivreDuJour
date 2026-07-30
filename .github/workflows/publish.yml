@@ -26,14 +26,12 @@ jobs:
       - name: Nettoyer le cache npm
         run: npm cache clean --force
 
-      - name: Afficher les variables d'environnement
+      - name: Vérifier la présence des secrets (sans afficher les valeurs)
         run: |
-          echo "MASTODON_ACCESS_TOKEN est défini ? : ${{ secrets.MASTODON_ACCESS_TOKEN != '' }}"
-          echo "MASTODON_BASE_URL est défini ? : ${{ secrets.MASTODON_BASE_URL != '' }}"
+          if [ -n "${{ secrets.MASTODON_ACCESS_TOKEN }}" ]; then echo "TOKEN défini"; else echo "TOKEN manquant"; fi
+          if [ -n "${{ secrets.MASTODON_BASE_URL }}" ]; then echo "URL définie"; else echo "URL manquante"; fi
 
       - name: Installer les dépendances
-        env:
-          NODE_OPTIONS: "--openssl-legacy-provider"
         run: npm ci
 
       - name: Publier le livre (avec logs détaillés)
@@ -41,4 +39,4 @@ jobs:
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
           MASTODON_BASE_URL: ${{ secrets.MASTODON_BASE_URL }}
         run: |
-          node --trace-warnings index.js || echo "Le script a échoué avec le code : $?"
+          node --trace-warnings index.js
