@@ -1,4 +1,7 @@
 name: Publier un livre sur Mastodon
+run: |
+  set -x
+  npm ci
 
 on:
   schedule:
