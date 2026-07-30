@@ -67,7 +67,7 @@ function formaterPost(livre) {
   post += `🔗 ${url}`;
 
   const publisherTag = publisher.replace(/\s+/g, '').replace(/[^\w]/g, '');
-  post += `\n\n#Livre #Lecture #${publisherTag} #EditionsIndépendantes`;
+  post += `\n\n#Livre #Lecture #EditionsIndépendantes`;
 
   return post;
 }
