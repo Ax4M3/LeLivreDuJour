@@ -1,7 +1,4 @@
 name: Publier un livre sur Mastodon
-run: |
-  set -x
-  npm ci
 
 on:
   schedule:
@@ -22,7 +19,9 @@ jobs:
           node-version: 20
 
       - name: Installer les dépendances
-        run: npm install
+        run: |
+          set -x
+          npm ci
 
       - name: Publier le livre
         env:
