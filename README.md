@@ -5,6 +5,7 @@ Petit bot Mastodon sur le serveur [Piaille](piaille.fr) qui pouette automatiquem
 > [@LeLivreDuJour](https://piaille.fr/@LeLivreDuJour)
 
 Le bot est toujours en cours de codage, de nouveaux livres et maisons indépendantes arriveront à l'avenir.
+<a rel="me" href="https://piaille.fr/@LeLivreDuJour"></a>
 
 ## Crédits
 
