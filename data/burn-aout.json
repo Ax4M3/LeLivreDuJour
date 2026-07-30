@@ -3,12 +3,220 @@
   "fediverse_id": "@editionsburnaout@piaille.fr",
   "books": [
     {
-      "title": "DQuels problèmes les artistes éditeurices peuvent-iels résoudre ?",
+      "title": "École 0, édition d'été n° 1 : itinéraire d'une école en construction",
+      "author": "Collectif École 0",
+      "year": 2022,
+      "price": "15.00 €",
+      "description": "Le récit de la création de l'École Zéro par des étudiant·es en lutte, du séminaire autogéré à l'école d'architecture de Paris-Malaquais jusqu'à une école d'été dans les Hauts-d'Anjou.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/1-ecole-0-edition-d-ete-n-1-itineraire-d-une-ecole-en-construction.html"
+    },
+    {
+      "title": "Thune amertume fortune",
+      "author": "Eugénie Zély",
+      "year": 2022,
+      "price": "18.00 €",
+      "description": "Premier roman d'Eugénie Zély, qui raconte la vie, la mort et le désir de révolution d'Eva Sig, une femme pauvre de la classe moyenne, à travers un regard féministe et queer radical.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/2-thune-amertume-fortune.html"
+    },
+    {
+      "title": "Quels problèmes les artistes éditeurices peuvent-iels résoudre ?",
       "author": "Collectif",
-      "year": 2018,
+      "year": 2022,
       "price": "5.00 €",
-      "description": "Une analyse complète du burn-out, de ses causes, de ses symptômes et des moyens de le prévenir.",
+      "description": "Traduction d'un livret réunissant 17 artistes éditeurices internationaux·ales invité·es à réfléchir aux problèmes sociaux, politiques, économiques et écologiques que leur pratique peut aider à résoudre.",
       "url": "https://boutique.editionsburnaout.fr/fr/accueil/3-quels-problemes-les-artistes-editeurices-peuvent-iels-resoudre-.html"
+    },
+    {
+      "title": "Bezdorijia, chroniques d'un voyage en Ukraine",
+      "author": "Collectif Ici Transcarpatie, La cantine syrienne de Montreuil, Juliette Corne",
+      "year": 2023,
+      "price": "13.00 €",
+      "description": "Un recueil de textes écrits lors d'un voyage en Ukraine en 2022, témoignant depuis une perspective militante du quotidien d'un peuple en résistance et de ses pratiques d'auto-organisation.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/4-bezdorijia-chroniques-d-un-voyage-en-ukraine.html"
+    },
+    {
+      "title": "Du salaire pour nos transitions",
+      "author": "Harry Josephine Giles",
+      "year": 2023,
+      "price": "5.00 €",
+      "description": "Premier texte traduit en français de cette autrice écossaise, un manifeste qui articule transféminisme, anticapitalisme et reproduction sociale en pensant la transition comme travail productif.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/5-du-salaire-pour-nos-transitions.html"
+    },
+    {
+      "title": "Hot wings and tenders",
+      "author": "Marl Brun",
+      "year": 2023,
+      "price": "9.00 €",
+      "description": "Premier recueil de poèmes de Marl Brun, écrits en anglais puis traduits collectivement à l'oral, sur la survie, l'émancipation et la résilience.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/6-hot-wings-and-tenders.html"
+    },
+    {
+      "title": "C'est les vacances, n° 1",
+      "author": "Collectif",
+      "year": 2023,
+      "price": "13.00 €",
+      "description": "Premier numéro d'une revue estivale et politique réunissant des auteurices de plusieurs générations, articulé autour de la colère.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/7-c-est-les-vacances-n-1.html"
+    },
+    {
+      "title": "ROSE2RAGE",
+      "author": "Théophylle Dcx",
+      "year": 2023,
+      "price": "15.00 €",
+      "description": "Un récit rythmé qui retrace ce que peut être la vie d'une jeune personne queer séropositive aujourd'hui, en hommage à un camarade disparu.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/8-rose2rage.html"
+    },
+    {
+      "title": "Politiser l'enfance",
+      "author": "Collectif",
+      "year": 2023,
+      "price": "26.00 €",
+      "description": "Anthologie de textes inédits, traduits ou réédités, dirigée par Vincent Romagny, qui explore les rapports entre enfance et politique selon des perspectives philosophique, sociologique, féministe et queer.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/9-politiser-l-enfance.html"
+    },
+    {
+      "title": "La morale de la Xerox",
+      "author": "Clara Balaguer, Florian Cramer",
+      "year": 2024,
+      "price": "5.00 €",
+      "description": "Un fanzine tête-bêche qui traite de l'appropriation culturelle depuis deux points de vue : l'accès au savoir aux Philippines et une expérience de spoliation dans le monde de l'art.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/10-la-morale-de-la-xerox.html"
+    },
+    {
+      "title": "Vandalisme queer",
+      "author": "Sara Ahmed",
+      "year": 2024,
+      "price": "7.00 €",
+      "description": "Recueil de trois textes de la philosophe féministe et décoloniale Sara Ahmed sur les modes d'existence queer comme stratégies de survie et de subversion.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/11-vandalisme-queer.html"
+    },
+    {
+      "title": "C'est les vacances, n° 2",
+      "author": "Collectif",
+      "year": 2024,
+      "price": "13.00 €",
+      "description": "Deuxième numéro de la revue estivale, placé sous le signe d'une résignation émancipatrice inspirée par la voix de Dorothy Allison.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/12-c-est-les-vacances-n-2.html"
+    },
+    {
+      "title": "L'homosexualité, ce douloureux problème : Fiction documentée d'un mouvement révolutionnaire",
+      "author": "Collectif Fléau social",
+      "year": 2024,
+      "price": "17.00 €",
+      "description": "Texte de la pièce retraçant l'histoire du Front Homosexuel d'Action Révolutionnaire (FHAR), de sa naissance en 1971 à son autodissolution en 1974.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/13-l-homosexualite-ce-douloureux-probleme-fiction-documentee-d-un-mouvement-revolutionnaire.html"
+    },
+    {
+      "title": "Pipi champagne",
+      "author": "Maxime Vignaud",
+      "year": 2024,
+      "price": "14.00 €",
+      "description": "Deux recueils de poèmes tête-bêche qui explorent les désirs homosexuels réels et fantasmés de Maxime, entre manifs, clubs et déambulations urbaines.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/14-pipi-champagne.html"
+    },
+    {
+      "title": "« À bas l'état, les flics et les fachos ! »",
+      "author": "Olivier Minot",
+      "year": 2024,
+      "price": "14.00 €",
+      "description": "Olivier Minot recueille la parole des militant·es du Groupe Antifasciste Lyon et Environs (GALE), dissous par l'État en 2023, et raconte quinze ans de luttes lyonnaises.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/15--a-bas-l-etat-les-flics-et-les-fachos-.html"
+    },
+    {
+      "title": "Non-noyées : Leçons Féministes Noires apprises auprès des Mammifères Marines",
+      "author": "Alexis Pauline Gumbs",
+      "year": 2024,
+      "price": "19.00 €",
+      "description": "Un livre de méditation qui puise dans les enseignements des mammifères marins pour nourrir les luttes sociales et les solidarités inter-espèces.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/16-non-noyees-lecons-feministes-noires-apprises-aupres-des-mammiferes-marines.html"
+    },
+    {
+      "title": "Sarahland",
+      "author": "Sam Cohen",
+      "year": 2025,
+      "price": "14.00 €",
+      "description": "Dix nouvelles reliées par des personnages presque tous·tes prénommé·es Sarah, qui explorent la possibilité de récits de vie affranchis des injonctions imposées.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/17-sarahland.html"
+    },
+    {
+      "title": "Un jardin, une rencontre imaginée entre Laura Mulvey et Jean-Louis Comolli",
+      "author": "Collectif",
+      "year": 2025,
+      "price": "20.00 €",
+      "description": "Un livre en trois parties mêlant images, textes et archives autour des pensées croisées des cinéastes et théoricien·nes Laura Mulvey et Jean-Louis Comolli.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/18-un-jardin-une-rencontre-imaginee-entre-laura-mulvey-et-jean-louis-comol.html"
+    },
+    {
+      "title": "Déborder Bolloré",
+      "author": "Collectif",
+      "year": 2025,
+      "price": "12.00 €",
+      "description": "Un recueil coédité par des éditeurices indépendant·es qui rassemble des réflexions de chercheureuses, imprimeureuses et libraires sur le démantèlement de l'empire Bolloré.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/19-deborder-bollore.html"
+    },
+    {
+      "title": "C'est les vacances, n° 3",
+      "author": "Collectif",
+      "year": 2025,
+      "price": "15.00 €",
+      "description": "Troisième numéro de la revue estivale, dirigée par Eugénie Zély, qui donne à voir une scène de création littéraire foisonnante et politique.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/20-c-est-les-vacances-n-3.html"
+    },
+    {
+      "title": "Maisons d'enfance",
+      "author": "auror·404",
+      "year": 2025,
+      "price": "15.00 €",
+      "description": "Samaël retourne vider la maison de son enfance dans le bassin minier, assailli par des souvenirs de violences intrafamiliales, alors qu'une nouvelle relation le confronte à d'autres dynamiques d'emprise.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/21-maison-d-enfance.html"
+    },
+    {
+      "title": "Ce qui tient, réflexions sur les institutions mineures",
+      "author": "L'école de philosophie",
+      "year": 2025,
+      "price": "20.00 €",
+      "description": "Un recueil de philosophie politique écrit depuis une école autogérée du Tarn-et-Garonne, qui interroge ce que signifie durer collectivement dans le temps sans se scléroser.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/22-ce-qui-tient.html"
+    },
+    {
+      "title": "Vrai travail",
+      "author": "Collectif",
+      "year": 2026,
+      "price": "19.00 €",
+      "description": "Des textes et entretiens avec des travailleureuses du sexe, prolongeant le travail du Collectif Occasionnel, qui mettent en lumière la pluralité de ces pratiques et les solidarités de lutte.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/23-vrai-travail.html"
+    },
+    {
+      "title": "Non-noyées : Leçons Féministes Noires apprises auprès des Mammifères Marines (poche)",
+      "author": "Alexis Pauline Gumbs",
+      "year": 2025,
+      "price": "9.90 €",
+      "description": "Édition de poche du livre de méditation d'Alexis Pauline Gumbs, qui puise dans les enseignements des mammifères marins pour nourrir les luttes sociales.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/24-non-noyees-lecons-feministes-noires-apprises-aupres-des-mammiferes-marines-poche.html"
+    },
+    {
+      "title": "Défaire le suicidisme : Une approche trans, queer et crip du suicide (assisté)",
+      "author": "Alexandre Baril",
+      "year": 2026,
+      "price": "18.00 €",
+      "description": "Un essai qui théorise le « suicidisme », une oppression subie par les personnes suicidaires, et propose une reconceptualisation radicale du rapport au suicide (assisté).",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/25-defaire-le-suicidisme-une-approche-trans-queer-et-crip-du-suicide-assiste.html"
+    },
+    {
+      "title": "La même en pire",
+      "author": "Eugénie Zély",
+      "year": 2026,
+      "price": "12.00 €",
+      "description": "Huit femmes se retrouvent autour de la disparition de Madison, ex-colocataire qui streamait sa vie depuis une maison délabrée, pour revenir sur ce qui les a rassemblées puis séparées.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/26-la-meme-en-pire.html"
+    },
+    {
+      "title": "On ne bombardera jamais ma voix",
+      "author": "Yahya AL Hamarna",
+      "year": 2026,
+      "price": "9.00 €",
+      "description": "Un recueil de poèmes écrits depuis Gaza, qui documente les brutalités de la guerre et les rituels fragiles du quotidien dans une poétique de la survie et de la dignité.",
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/27-on-ne-bombardera-jamais-ma-voix.html"
     }
   ]
 }
