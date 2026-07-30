@@ -1,5 +1,6 @@
 import { readdirSync, readFileSync, writeFileSync, existsSync } from 'fs';
-import { Mastodon } from 'mastodon-api';
+import pkg from 'mastodon-api';
+const { Mastodon } = pkg;
 import fetch from 'node-fetch';
 
 
@@ -78,7 +79,7 @@ async function uploaderImage(url, client) {
     if (!response.ok) {
       throw new Error(`Impossible de télécharger l'image: ${response.statusText}`);
     }
-    
+
     const arrayBuffer = await response.arrayBuffer();
     const buffer = Buffer.from(arrayBuffer);
     
