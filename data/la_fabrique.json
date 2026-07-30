@@ -1,6 +1,6 @@
 {
   "publisher": "La Fabrique éditions",
-  "fediverse_id": " @Lafabrique@mastodon.social ",
+  "fediverse_id": "@Lafabrique@mastodon.social",
   "books": [
     {
       "title": "Que fait la police ?",
@@ -9,7 +9,6 @@
       "price": "14.00 €",
       "description": "Peut-on pour autant se passer de police ? En s’inspirant des exemples sud-africain et nord-irlandais, où les habitants ont expérimenté des formes de gestion des conflits indépendantes de l’appareil d’État, Paul Rocher dégage les voies possibles d’un monde sans police.",
       "url": "https://lafabrique.fr/que-fait-la-police/",
-      "cover_path": "./images/lafabrique1.png"
     },
     {
       "title": "« État de droit », ordre bourgeois",
@@ -17,8 +16,7 @@
       "year": 2026,
       "price": "14.00 €",
       "description": "Face aux gouvernements liberticides, aux violences policières, à la réaction coloniale en Kanaky ou au patronat radicalisé, plus il devient nécessaire de se défendre en justice, plus il est difficile de le faire.",
-      "url": "https://lafabrique.fr/etat-de-droit-ordre-bourgeois/",
-      "cover_path": "./images/lafabrique2.png"
+      "url": "https://lafabrique.fr/etat-de-droit-ordre-bourgeois/"
     }
   ]
 }

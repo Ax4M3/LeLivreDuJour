@@ -1,6 +1,6 @@
 {
   "publisher": "Éditions Burn~Août",
-  "fediverse_id": " @editionsburnaout@piaille.fr ",
+  "fediverse_id": "@editionsburnaout@piaille.fr",
   "books": [
     {
       "title": "DQuels problèmes les artistes éditeurices peuvent-iels résoudre ?",
@@ -8,8 +8,7 @@
       "year": 2018,
       "price": "5.00 €",
       "description": "Une analyse complète du burn-out, de ses causes, de ses symptômes et des moyens de le prévenir.",
-      "url": "https://boutique.editionsburnaout.fr/fr/accueil/3-quels-problemes-les-artistes-editeurices-peuvent-iels-resoudre-.html",
-      "cover_url": "./images/burn-aout1.png"
+      "url": "https://boutique.editionsburnaout.fr/fr/accueil/3-quels-problemes-les-artistes-editeurices-peuvent-iels-resoudre-.html"
     }
   ]
 }
