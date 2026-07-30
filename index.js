@@ -1,8 +1,11 @@
 import { readdirSync, readFileSync, writeFileSync, existsSync } from 'fs';
-import pkg from 'mastodon-api';
-const { Mastodon } = pkg;
+import { createRestAPIClient } from 'masto';
 import fetch from 'node-fetch';
 
+const client = createRestAPIClient({
+  url: process.env.MASTODON_BASE_URL,
+  accessToken: process.env.MASTODON_ACCESS_TOKEN,
+});
 
 function lireLivres() {
   const dossierData = './data';
@@ -73,86 +76,67 @@ function formaterPost(livre) {
   return post;
 }
 
-async function uploaderImage(url, client) {
+async function uploaderImage(imageUrl) {
   try {
-    const response = await fetch(url);
+    const response = await fetch(imageUrl);
     if (!response.ok) {
       throw new Error(`Impossible de télécharger l'image: ${response.statusText}`);
     }
-
     const arrayBuffer = await response.arrayBuffer();
-    const buffer = Buffer.from(arrayBuffer);
     
-    const base64Image = buffer.toString('base64');
-    const uploadResponse = await client.post('media', {
-      file: base64Image,
-      description: `Couverture du livre: ${url}`
+    const attachment = await client.v2.media.create({
+      file: new Blob([arrayBuffer], { type: 'image/jpeg' }),
+      description: `Couverture du livre`
     });
 
-    return uploadResponse.data.id;
+    return attachment.id;
   } catch (error) {
-    console.error(`⚠️ Erreur lors de l'upload de l'image ${url}:`, error.message);
+    console.error(`⚠️ Erreur lors de l'upload de l'image ${imageUrl}:`, error.message);
     return null;
   }
 }
 
 async function publierLivre() {
-  const accessToken = process.env.MASTODON_ACCESS_TOKEN;
-  const baseUrl = process.env.MASTODON_BASE_URL;
-
-  if (!accessToken || !baseUrl) {
+  if (!process.env.MASTODON_ACCESS_TOKEN || !process.env.MASTODON_BASE_URL) {
     throw new Error('❌ Les variables MASTODON_ACCESS_TOKEN et MASTODON_BASE_URL sont requises.');
   }
+  
   const livres = lireLivres();
   if (livres.length === 0) {
     throw new Error('❌ Aucun livre trouvé dans le dossier data/');
   }
+
   const livresPublies = lireLivresPublies().books;
-  const livresRestants = livres.filter(livre =>
+  let livresRestants = livres.filter(livre =>
     !livresPublies.some(p => p.title === livre.title && p.publisher === livre.publisher)
   );
 
   if (livresRestants.length === 0) {
     console.log('⚠️ Tous les livres ont déjà été publiés. Réinitialisation de la liste.');
     writeFileSync('./published.json', JSON.stringify({ books: [] }, null, 2));
-    const nouveauxLivresRestants = livres.filter(livre =>
-      !lireLivresPublies().books.some(p => p.title === livre.title && p.publisher === livre.publisher)
-    );
-    if (nouveauxLivresRestants.length === 0) {
-      throw new Error('❌ Aucun livre disponible à publier.');
-    }
-    livresRestants.push(...nouveauxLivresRestants);
+    livresRestants = lireLivres();
   }
+
   const livreAleatoire = livresRestants[Math.floor(Math.random() * livresRestants.length)];
   const post = formaterPost(livreAleatoire);
-  const client = new Mastodon({
-    access_token: accessToken,
-    api_url: baseUrl + '/api/v1/',
+
+  let mediaId = null;
+  if (livreAleatoire.cover_url) {
+    mediaId = await uploaderImage(livreAleatoire.cover_url);
+  }
+
+  await client.v1.statuses.create({
+    status: post,
+    mediaIds: mediaId ? [mediaId] : undefined,
   });
 
-  try {
-    let mediaId = null;
-    if (livreAleatoire.cover_url) {
-      mediaId = await uploaderImage(livreAleatoire.cover_url, client);
-    }
+  ecrireLivrePublie(livreAleatoire);
 
-    const postData = { status: post };
-    if (mediaId) {
-      postData.media_ids = [mediaId];
-    }
-    await client.post('statuses', postData);
-
-    ecrireLivrePublie(livreAleatoire);
-
-    console.log('✅ Post publié avec succès :', livreAleatoire.title);
-    console.log('📌 Éditeur :', livreAleatoire.publisher);
-    console.log('💰 Prix :', livreAleatoire.price);
-    if (mediaId) {
-      console.log('🖼️ Image uploadée avec succès.');
-    }
-  } catch (error) {
-    console.error('❌ Erreur lors de la publication :', error.message);
-    throw error;
+  console.log('✅ Post publié avec succès :', livreAleatoire.title);
+  console.log('📌 Éditeur :', livreAleatoire.publisher);
+  console.log('💰 Prix :', livreAleatoire.price);
+  if (mediaId) {
+    console.log('🖼️ Image uploadée avec succès.');
   }
 }
 
