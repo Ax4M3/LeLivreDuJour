@@ -78,7 +78,10 @@ async function uploaderImage(url, client) {
     if (!response.ok) {
       throw new Error(`Impossible de télécharger l'image: ${response.statusText}`);
     }
-    const buffer = await response.buffer();
+    
+    const arrayBuffer = await response.arrayBuffer();
+    const buffer = Buffer.from(arrayBuffer);
+    
     const base64Image = buffer.toString('base64');
     const uploadResponse = await client.post('media', {
       file: base64Image,
