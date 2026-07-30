@@ -53,21 +53,18 @@ function ecrireLivrePublie(livre) {
 }
 
 function formaterPost(livre) {
-  const { title, author, year, price, description, url, publisher, fediverse_id } = livre;
+  const { title, author, author_fediverse_id, year, price, description, url, publisher, fediverse_id } = livre;
 
-  const emojis = {
-    "La Fabrique éditions": "🏭",
-    "Les Éditions sociales": "✊",
-    "Éditions Burn out": "🔥"
-  };
+  const auteurStr = author_fediverse_id ? `${author} (${author_fediverse_id})` : author;
+  let post = `📚 ${title} — ${auteurStr} (${year})\n`;
 
-  const emojiEditeur = emojis[publisher] || "📚";
+  const editeurStr = fediverse_id ? `${publisher} (${fediverse_id})` : publisher;
+  post += `🏢 ${editeurStr} | 💰 ${price}\n\n`;
 
-  let post = `${emojiEditeur} *${title}* (${year})\n`;
-  post += `✍️ ${author}\n`;
-  post += `💰 ${price}\n`;
-  post += `🏢 ${publisher} ${fediverse_id ? `(${fediverse_id})` : ''}\n\n`;
-  post += `${description}\n\n`;
+  if (description) {
+    post += `${description}\n\n`;
+  }
+
   post += `🔗 ${url}`;
 
   const publisherTag = publisher.replace(/\s+/g, '').replace(/[^\w]/g, '');
