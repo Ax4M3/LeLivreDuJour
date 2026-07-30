@@ -1,0 +1,190 @@
+{
+  "publisher": "Agone",
+  "fediverse_id": "@EditionsAgone@mastodon.social",
+  "books": [
+    {
+        "title": "Les derniers jours de l’ancien monde",
+        "author": "Peter Mertens",
+        "year": 2026,
+        "price": "18,00 €",
+        "description": "Un récit flamboyant sur les crises du capitalisme et les mouvements de résistance. Peter Mertens explore les liens entre militarisation, monopoles et希望 (espoir) dans un monde en mutation.",
+        "url": "https://agone.org/livre/les-derniers-jours-de-lancien-monde/"
+    },
+    {
+        "title": "Dix ans d’Action directe",
+        "author": "Jean-Marc Rouillan",
+        "year": 2018,
+        "price": "22,00 €",
+        "description": "Témoignages et analyses sur les années 1977-1987, période marquée par les actions du groupe armé révolutionnaire Action directe en France.",
+        "url": "https://agone.org/livre/dixansdactiondirecte/"
+    },
+    {
+        "title": "La Trahison des éditeurs",
+        "author": "Thierry Discepolo",
+        "year": 2011,
+        "price": "20,00 €",
+        "description": "Une enquête sur les dérives de l’édition française, analysant les concentrations capitalistes et leurs impacts sur la diversité culturelle.",
+        "url": "https://agone.org/livre/la-trahison-des-editeurs/"
+    },
+    {
+        "title": "La Fabrique de violence",
+        "author": "Jan Guillou",
+        "year": 2010,
+        "price": "23,00 €",
+        "description": "Roman explorant les mécanismes de la violence institutionnelle et ses conséquences sur les individus et la société.",
+        "url": "https://agone.org/livre/lafabriquedeviolence/"
+    },
+    {
+        "title": "L’Ère des extrêmes",
+        "author": "Eric Hobsbawm",
+        "year": 2020,
+        "price": "22,00 €",
+        "description": "Histoire du court XXe siècle (1914-1991). Une analyse magistrale des bouleversements politiques, sociaux et économiques qui ont façonné le siècle dernier.",
+        "url": "https://agone.org/livre/leredesextremes/"
+    },
+    {
+        "title": "À l’école du capitalisme",
+        "author": "Inconnu",
+        "year": 2023,
+        "price": "20,00 €",
+        "description": "Une réflexion sur les mécanismes d’apprentissage et de reproduction des inégalités dans le système capitaliste.",
+        "url": "https://agone.org/livre/a-lecole-du-capitalisme/"
+    },
+    {
+        "title": "Agone 63 : Autre(s) littérature(s)",
+        "author": "Collectif (Revue Agone)",
+        "year": 2020,
+        "price": "20,00 €",
+        "description": "Numéro spécial de la revue Agone interrogeant les normes littéraires et les exclusions historiques (littérature populaire, féminine, sociale, etc.).",
+        "url": "https://agone.org/livre/agone63/"
+    },
+    {
+        "title": "Agone 61 : La nature comme champ de bataille",
+        "author": "Collectif (Revue Agone)",
+        "year": 2019,
+        "price": "20,00 €",
+        "description": "Un dossier explorant les enjeux écologiques comme terrains de luttes politiques et idéologiques.",
+        "url": "https://agone.org/livre/agone61/"
+    },
+    {
+        "title": "Agone 59 : Le peuple contre la démocratie ?",
+        "author": "Collectif (Revue Agone)",
+        "year": 2018,
+        "price": "20,00 €",
+        "description": "Analyse des tensions entre populisme, démocratie et élites, avec des contributions historiques et contemporaines.",
+        "url": "https://agone.org/livre/agone59/"
+    },
+    {
+        "title": "Agone 57 : La science contre la démocratie ?",
+        "author": "Collectif (Revue Agone)",
+        "year": 2017,
+        "price": "20,00 €",
+        "description": "Réflexions sur les rapports entre science, pouvoir et décision politique, avec un focus sur les dérives technocratiques.",
+        "url": "https://agone.org/livre/agone57/"
+    },
+    {
+        "title": "Agone 55 : La guerre des métropoles",
+        "author": "Collectif (Revue Agone)",
+        "year": 2016,
+        "price": "20,00 €",
+        "description": "Étude des dynamiques urbaines, des inégalités territoriales et des conflits liés à la métropolisation.",
+        "url": "https://agone.org/livre/agone55/"
+    },
+    {
+        "title": "Agone 54 : Le travail à l’ère de sa reproduction numérique",
+        "author": "Collectif (Revue Agone)",
+        "year": 2016,
+        "price": "20,00 €",
+        "description": "Analyse des transformations du travail à l’ère du numérique, entre précarisation et nouvelles formes de contrôle.",
+        "url": "https://agone.org/livre/agone54/"
+    },
+    {
+        "title": "Agone 50 : La grande santé des lettres françaises",
+        "author": "Collectif (Revue Agone)",
+        "year": 2014,
+        "price": "20,00 €",
+        "description": "Un retour critique sur l’histoire littéraire française, ses canons et ses marginalisés.",
+        "url": "https://agone.org/livre/agone50/"
+    },
+    {
+        "title": "Agone 49 : Le spectacle et la guerre",
+        "author": "Collectif (Revue Agone)",
+        "year": 2014,
+        "price": "20,00 €",
+        "description": "Exploration des liens entre médias, propagande et conflits armés dans l’histoire moderne.",
+        "url": "https://agone.org/livre/agone49/"
+    },
+    {
+        "title": "Agone 48 : La propriété, c’est le vol !",
+        "author": "Collectif (Revue Agone)",
+        "year": 2013,
+        "price": "20,00 €",
+        "description": "Réflexions sur la propriété privée, ses fondements idéologiques et ses alternatives, de Proudhon à aujourd’hui.",
+        "url": "https://agone.org/livre/agone48/"
+    },
+    {
+        "title": "Agone 46 : La démocratie des crédules",
+        "author": "Collectif (Revue Agone)",
+        "year": 2012,
+        "price": "20,00 €",
+        "description": "Analyse des dérives de la démocratie libérale, entre populisme, médiatisation et désinformation.",
+        "url": "https://agone.org/livre/agone46/"
+    },
+    {
+        "title": "Agone 45 : La société des vigilants",
+        "author": "Collectif (Revue Agone)",
+        "year": 2012,
+        "price": "20,00 €",
+        "description": "Étude des mécanismes de surveillance et de contrôle social, de Foucault aux sociétés contemporaines.",
+        "url": "https://agone.org/livre/agone45/"
+    },
+    {
+        "title": "Agone 28 : La misère du monde – La misère de la sociologie",
+        "author": "Collectif (Revue Agone)",
+        "year": 2007,
+        "price": "20,00 €",
+        "description": "Critique des approches sociologiques dominantes et réflexion sur les méthodes pour saisir les inégalités sociales.",
+        "url": "https://agone.org/livre/agone28/"
+    },
+    {
+        "title": "Agone 16 : Le peuple et ses avis",
+        "author": "Collectif (Revue Agone)",
+        "year": 2004,
+        "price": "20,00 €",
+        "description": "Analyse des rapports entre opinion publique, médias et démocratie, avec des études de cas historiques.",
+        "url": "https://agone.org/livre/agone16/"
+    },
+    {
+        "title": "Agone 1 : La fin des journaux ?",
+        "author": "Collectif (Revue Agone)",
+        "year": 2000,
+        "price": "20,00 €",
+        "description": "Premier numéro de la revue Agone, consacré à la crise de la presse et aux enjeux de l’information à l’ère numérique naissante.",
+        "url": "https://agone.org/livre/agone1/"
+    },
+    {
+        "title": "Décroiscience",
+        "author": "Vincent Delecroix",
+        "year": 2021,
+        "price": "20,00 €",
+        "description": "Une critique philosophique de la science moderne, explorant ses limites épistémologiques et ses présupposés métaphysiques.",
+        "url": "https://agone.org/livre/decroiscience/"
+    },
+    {
+        "title": "Édition française : qui possède quoi ? (2e édition)",
+        "author": "Thierry Discepolo",
+        "year": 2022,
+        "price": "15,00 €",
+        "description": "Un panorama actualisé des concentrations dans l’édition française, avec des données sur les groupes dominants et leurs stratégies.",
+        "url": "https://agone.org/livre/edition-francaise-qui-possede-quoi-2/"
+    },
+    {
+        "title": "Race et sciences sociales",
+        "author": " Stéphane Beaud, Gérard Noiriel",
+        "year": 2020,
+        "price": "12,00 €",
+        "description": "Un recueil d’articles analysant les rapports entre race, classe et genre dans les sciences sociales contemporaines.",
+        "url": "https://agone.org/livre/raceetsciencessociales/"
+    }
+  ]
+}
