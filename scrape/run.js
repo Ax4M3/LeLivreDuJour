@@ -1,8 +1,8 @@
 import { readFileSync, writeFileSync, existsSync } from 'fs';
-import { fetchHtml, sleep } from '../lib/http.js';
-import { genericExtractBook } from '../lib/structured-data.js';
-import { discoverUrls } from '../lib/discovery.js';
-import { SOURCES } from './sites.config.js';
+import { fetchHtml, sleep } from './lib/http.js';
+import { genericExtractBook } from './lib/structured-data.js';
+import { discoverUrls } from './lib/discovery.js';
+import { SOURCES } from 'sites.config.js';
 
 function readExisting(path) {
   if (!existsSync(path)) return null;
