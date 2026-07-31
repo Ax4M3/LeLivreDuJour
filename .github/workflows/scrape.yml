@@ -1,0 +1,42 @@
+name: Mettre à jour les catalogues des éditeurs
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout le dépôt
+        uses: actions/checkout@v4
+
+      - name: Configurer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Installer les dépendances
+        run: npm ci
+
+      - name: Scraper Éditions Divergences
+        run: npm run scrape:divergences
+
+      - name: Scraper Éditions JOU
+        run: npm run scrape:jou
+
+      - name: Scraper La Volte
+        run: npm run scrape:volte
+
+      - name: Valider les données
+        run: npm run validate
+
+      - name: Commiter les changements
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add data/editors/
+          git diff --quiet || git commit -m "chore: mise à jour automatique des catalogues"
+          git push
