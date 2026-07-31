@@ -5,19 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node --trace-warnings index.js",
-    "validate": "node scripts/validate-data.js",
-    "scrape:divergences": "node scripts/scrape-divergences.js",
-    "scrape:jou": "node scripts/scrape-editions-jou.js",
-    "scrape:volte": "node scripts/scrape-la-volte.js",
-    "scrape:all": "npm run scrape:divergences && npm run scrape:jou && npm run scrape:volte"
+    "test": "node index.js"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12",
-    "masto": "^6.10.4",
-    "node-fetch": "^3.3.2",
-    "zod": "^3.22.4",
-    "lowdb": "^7.0.1",
-    "csv-parser": "^3.0.0"
+    "masto": "^6.5.0",
+    "node-fetch": "^3.3.2"
   }
 }
