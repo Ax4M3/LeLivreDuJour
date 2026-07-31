@@ -1,0 +1,150 @@
+{
+  "publisher": "Ròt-Bò-Krik",
+  "fediverse_id": "@editionsburnaout@piaille.fr",
+  "books": [
+    {
+        "title": "Fantômes de la révolution noire",
+        "author": "Grégory Pierrot",
+        "year": 2026,
+        "price": "22,00 €",
+        "description": "Une histoire culturelle transatlantique explorant l'héritage des révolutions noires et leurs impacts sur les cultures contemporaines.",
+        "url": "https://www.rot-bo-krik.com/fantomes-de-la-revolution-noire"
+    },
+    {
+        "title": "Notre sœur Rabat-joie",
+        "author": "Ama Ata Aidoo",
+        "year": 2026,
+        "price": "20,00 €",
+        "description": "Méditations obliques d’une femme noire sur la condition des femmes africaines, entre tradition et modernité.",
+        "url": "https://www.rot-bo-krik.com/livre/notre-soeur-rabat-joie"
+    },
+    {
+        "title": "Un couple panafricain",
+        "author": "Elara Bertho",
+        "year": 2025,
+        "price": "24,00 €",
+        "description": "Récit historique de la relation entre Miriam Makeba et Stokely Carmichael en Guinée, symbole des luttes panafricaines.",
+        "url": "https://www.rot-bo-krik.com/livre/un-couple-panafricain"
+    },
+    {
+        "title": "Fragments de la vie de l’homme le plus gentil de la ville",
+        "author": "Manzu Islam",
+        "year": 2025,
+        "price": "20,00 €",
+        "description": "Roman ou recueil de nouvelles explorant la vie d’un personnage ordinaire mais emblématique, entre humanité et ironie.",
+        "url": "https://www.rot-bo-krik.com/livre/fragments-de-la-vie-de-lhomme-le-plus-gentil-de-la-ville"
+    },
+    {
+        "title": "Maghreb noir",
+        "author": "Paraska Tolan-Szkilnik",
+        "year": 2025,
+        "price": "22,00 €",
+        "description": "Analyse des dynamiques panafricaines dans les capitales maghrébines (Rabat, Alger, Tunis) et de leur rôle dans les luttes anticoloniales.",
+        "url": "https://www.rot-bo-krik.com/livre/maghreb-noir"
+    },
+    {
+        "title": "La Grotte aux poissons aveugles",
+        "author": "Ayoh Kré Duchâtelet",
+        "year": 2025,
+        "price": "18,00 €",
+        "description": "Récit poétique ou mythologique explorant des thèmes universels à travers une métaphore aquatique.",
+        "url": "https://www.rot-bo-krik.com/livre/la-grotte-aux-poissons-aveugles"
+    },
+    {
+        "title": "Pratique de la diaspora",
+        "author": "Brent Hayes Edwards",
+        "year": 2024,
+        "price": "24,00 €",
+        "description": "Essai sur les pratiques culturelles et politiques des diasporas africaines, entre mémoire et résistance.",
+        "url": "https://www.rot-bo-krik.com/livre/pratique-de-la-diaspora"
+    },
+    {
+        "title": "Écrire le monde noir",
+        "author": "Paulette Nardal",
+        "year": 2024,
+        "price": "20,00 €",
+        "description": "Recueil de textes de Paulette Nardal, figure majeure de la Renaissance noire, sur la littérature et l’identité.",
+        "url": "https://www.rot-bo-krik.com/livre/ecrire-le-monde-noir"
+    },
+    {
+        "title": "Le Sentiment de l’Inde",
+        "author": "Gayatri Chakravorty Spivak et Romila Thapar",
+        "year": 2024,
+        "price": "22,00 €",
+        "description": "Dialogue entre deux intellectuelles indiennes sur l’histoire, la culture et les défis contemporains de l’Inde.",
+        "url": "https://www.rot-bo-krik.com/livre/le-sentiment-de-linde"
+    },
+    {
+        "title": "D’un seul sang",
+        "author": "Pauline Hopkins",
+        "year": 2024,
+        "price": "20,00 €",
+        "description": "Roman historique explorant les thèmes de l’identité, de la race et de la résilience dans l’Amérique du début du XXe siècle.",
+        "url": "https://www.rot-bo-krik.com/livre/dun-seul-sang"
+    },
+    {
+        "title": "Imaginer la libération",
+        "author": "Annette Joseph-Gabriel",
+        "year": 2023,
+        "price": "22,00 €",
+        "description": "Essai sur les luttes des femmes noires contre l’empire colonial et les systèmes d’oppression.",
+        "url": "https://www.rot-bo-krik.com/livre/imaginer-la-liberation"
+    },
+    {
+        "title": "La Résistance des bijoux",
+        "author": "Ariella Aïsha Azoulay",
+        "year": 2023,
+        "price": "24,00 €",
+        "description": "Réflexion sur les objets d’art et leur rôle dans les luttes anticoloniales, entre esthétique et politique.",
+        "url": "https://www.rot-bo-krik.com/livre/la-resistance-des-bijoux"
+    },
+    {
+        "title": "La Couleur de l’oubli",
+        "author": "Merle Collins",
+        "year": 2023,
+        "price": "20,00 €",
+        "description": "Roman explorant les thèmes de la mémoire, de l’exil et de la reconstruction identitaire dans les sociétés postcoloniales.",
+        "url": "https://www.rot-bo-krik.com/livre/la-couleur-de-loubli"
+    },
+    {
+        "title": "L’Afrique dans le temps du monde",
+        "author": "Mamadou Diouf",
+        "year": 2023,
+        "price": "22,00 €",
+        "description": "Essai historique sur la place de l’Afrique dans les dynamiques mondiales, des empires coloniaux à la globalisation.",
+        "url": "https://www.rot-bo-krik.com/livre/lafrique-dans-le-temps-du-monde"
+    },
+    {
+        "title": "Dieu t’a créé, tu as crié… ! Une histoire des Guyanes",
+        "author": "Michel Alimeck",
+        "year": 2022,
+        "price": "24,00 €",
+        "description": "Histoire sociale et culturelle des Guyanes, entre héritages coloniaux et résistances autochtones.",
+        "url": "https://www.rot-bo-krik.com/livre/dieu-ta-cree-tu-as-crié-une-histoire-des-guyanes"
+    },
+    {
+        "title": "Archétypologie des trous",
+        "author": "Stacy Hardy",
+        "year": 2022,
+        "price": "20,00 €",
+        "description": "Essai expérimental explorant les métaphores du vide, de l’absence et des silences dans la littérature et l’art.",
+        "url": "https://www.rot-bo-krik.com/livre/archeologie-des-trous"
+    },
+    {
+        "title": "La Décolonisation n’est pas une métaphore",
+        "author": "Eve Tuck et K. Wayne Yang",
+        "year": 2022,
+        "price": "18,00 €",
+        "description": "Essai décolonial critiquant les usages métaphoriques de la décolonisation et appelant à une véritable justice matérielle.",
+        "url": "https://www.rot-bo-krik.com/livre/la-decolonisation-nest-pas-une-metaphore"
+    },
+    {
+        "title": "La Sphère de Planck",
+        "author": "Lionel Manga",
+        "year": 2022,
+        "price": "20,00 €",
+        "description": "Roman ou essai explorant les frontières entre science, philosophie et spiritualité, inspiré par la physique quantique.",
+        "url": "https://www.rot-bo-krik.com/livre/la-sphere-de-planck"
+    }
+  ]
+}
