@@ -1,0 +1,61 @@
+{
+  "publisher": "Éditions Hikaya",
+  "books": [
+    {
+        "title": "Dieu Vin",
+        "author": "Sephira Riva et Romain Delplancq",
+        "year": 2026,
+        "price": "13,50 €",
+        "description": "Une novella composée de deux nouvelles sur le thème des mythes et des langues, écrite à quatre mains par un auteur français et une écrivaine italo-croate.",
+        "url": "https://hikaya-editions.sumupstore.com/product/dieu-vin"
+    },
+    {
+        "title": "À coups de canon",
+        "author": "Titania Blesh",
+        "year": 2025,
+        "price": "26,90 €",
+        "description": "Il y a les héroïnes, il y a les pirates, et il y a Fiammetta. Fiammetta la Sarde, Fiammetta la femme battue qui dérobe l’or de son mari pour s’acheter son propre navire.",
+        "url": "https://hikaya-editions.sumupstore.com/article/a-coups-de-canon"
+    },
+    {
+        "title": "Un Bain de sangia",
+        "author": "Titania Blesh",
+        "year": 2026,
+        "price": "26,90 €",
+        "description": "Un équipage de femmes indépendantes. Tel était le rêve ultime de la capitaine Fiammetta ! Pourtant elle se retrouve co-capitaine. Avec un homme qui plus est…",
+        "url": "https://hikaya-editions.sumupstore.com/product/un-bain-de-sangria"
+    },
+    {
+        "title": "El Gusano",
+        "author": "Carlos Luis Barragan-Castro",
+        "year": 2026,
+        "price": "21,90 €",
+        "description": "Quand le petit César ef eure la peau de Sara, ce n’est pas uniquement un contact qui s’opère, c’est une fusion. Ce n’est pas la première ni la dernière. Bien au contraire. Le monde entier assiste à ce phénomène étrange et bouleversant.",
+        "url": "https://hikaya-editions.sumupstore.com/product/el-gusano"
+    },
+    {
+        "title": "Lune Noire",
+        "author": "Yasser Abu-el-Hassab",
+        "year": 2025,
+        "price": "18,90 €",
+        "description": "Sergueï est russe, Nathan est canadien. Tous deux sont astronautes et foulent enfin le sol de la Lune. Loin derrière eux, sur Terre, l’Europe et l’Afrique peinent encore à se remettre d’une guerre dévastatrice.",
+        "url": "https://hikaya-editions.sumupstore.com/product/lune-noire"
+    },
+    {
+        "title": "Paradis Synthétique",
+        "author": "Fadi Zaghmout",
+        "year": 2025,
+        "price": "18,90 €",
+        "description": "Amman, 2091. La vieillesse peut être soignée comme toute autre maladie et le gouvernement est sur le point de voter une loi imposant la pilule de jouvence à toute la population.",
+        "url": "https://hikaya-editions.sumupstore.com/article/paradis-synthetique"
+    },
+    {
+        "title": "Hard Reboot",
+        "author": "Antony Paschos",
+        "year": 2025,
+        "price": "18,90 €",
+        "description": "Jésus a été esclave, prostitué, terroriste… Il est désormais clandestin. Embarqué sur une arche avec les restes d’une post-humanité désespérée, une humanité privée de son libre arbitre et envoyée sur une étrange planète pour assouvir la dernière pulsion qui lui reste : l’expansion colonisatrice.",
+        "url": "https://hikaya-editions.sumupstore.com/article/hard-reboot"
+    }
+  ]
+}

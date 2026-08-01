@@ -1,0 +1,38 @@
+{
+  "publisher": "Copie Gauche",
+  "fediverse_id": "@CopieGauche@mastodon.social",
+  "books": [
+    {
+    "title": "Solarpunk",
+    "author": "Collectif",
+    "year": 2023,
+    "price": "15.00 €",
+    "description": "Un recueil de nouvelles sur le thème du Solarpunk, un mouvement politique, artistique et scientifique visant à présenter une vision optimiste du futur, tout en restant conscient des problématiques sociales et climatiques.",
+    "url": "https://copiegauche.fr/catalogue/solarpunk/"
+    },
+    {
+    "title": "Sciences",
+    "author": "Collectif",
+    "year": 2026,
+    "price": "16.00 €",
+    "description": "Recueil de nouvelles d'anticipation sur le thème des Sciences.",
+    "url": "https://copiegauche.fr/sciences/"
+    },
+    {
+    "title": "Greniers",
+    "author": "Collectif",
+    "year": 2025,
+    "price": "15.00 €",
+    "description": "Recueil de nouvelles d'anticipation sur le thème des Greniers.",
+    "url": "https://copiegauche.fr/collection-cetait-mieux-demain/greniers/"
+    },
+    {
+    "title": "Biorégions",
+    "author": "Collectif",
+    "year": 2024,
+    "price": "15.00 €",
+    "description": "En nous invitant à redéfinir notre rapport aux territoires, au vivant, à la production et à la consommation, le biorégionalisme place la biorégion – une unité fondée sur les milieux naturels plutôt que sur les frontières politiques – au centre des réflexions.",
+    "url": "https://copiegauche.fr/home-2/bioregions/"
+    }
+  ]
+}
