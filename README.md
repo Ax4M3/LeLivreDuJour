@@ -10,3 +10,7 @@ Le bot est toujours en cours de codage, de nouveaux livres et maisons indépenda
 ## Crédits
 
 Inspiré du bot [LeFilmDuJour](https://piaille.fr/@LeFilmDuJour), voir son [repo](https://github.com/n1k0/LeFilmDuJour).
+
+## Licence
+
+Ce projet est distribué sous licence MIT. Voir le fichier [LICENSE](https://github.com/Ax4M3/LeLivreDuJour/blob/main/LICENSE.md) pour plus de détails.
