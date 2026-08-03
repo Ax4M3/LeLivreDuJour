@@ -1,5 +1,5 @@
 {
-  "publisher": "Agone",
+  "publisher": "Éditions Agone",
   "fediverse_id": "@EditionsAgone@mastodon.social",
   "books": [
     {
@@ -44,10 +44,10 @@
     },
     {
         "title": "À l’école du capitalisme",
-        "author": "Inconnu",
-        "year": 2023,
+        "author": "Cécile Gorré et Nico Hirtt",
+        "year": 2026,
         "price": "20,00 €",
-        "description": "Une réflexion sur les mécanismes d’apprentissage et de reproduction des inégalités dans le système capitaliste.",
+        "description": "Un livre qui alerte sur les graves menaces que font peser la néolibéralisation de l’école, tant la démocratie que sur les inégalités sociales. Un plaidoyer pour une école publique forte, qui recentre son objectif sur l’apprentissage au lieu d’imposer aux élèves leurs futures places dans le modèle capitaliste.",
         "url": "https://agone.org/livre/a-lecole-du-capitalisme/"
     },
     {

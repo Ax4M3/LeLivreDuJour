@@ -5,12 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node index.js",
-    "scrape": "node scrape/run.js"
+    "dry-run": "node index.js --dry-run"
   },
   "dependencies": {
-    "cheerio": "^1.2.0",
-    "masto": "^6.5.0",
-    "node-fetch": "^3.3.2"
+    "masto": "^6.5.0"
   }
 }

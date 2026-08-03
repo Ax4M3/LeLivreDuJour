@@ -1,0 +1,94 @@
+{
+  "publisher": "Éditions des trois canards",
+  "fediverse_id": "@editionsdes3canards@mastodon.social",
+  "books": [
+    {
+        "title": "Annyo, le mouton à 5 pattes",
+        "author": "Kalam",
+        "year": 2026,
+        "price": "16,00 €",
+        "description": "« Si le berger l’a dit, c’est que c’est comme ça ». Le chien de berger est d’accord. Et aussi l’oiseau que nourrit le berger. Mais il y a ce mouton vert à 5 pattes qui doit toujours ramener sa fraise, ça complique tout. C’était plus simple de penser qu’il fallait donner sa laine et en vouloir aux moutons noirs. Enfin, il est quand même bizarre : il est vert et il a 5 pattes.",
+        "url": "https://lestroiscanards.ouvaton.org/produit/annyo-le-mouton-a-5-pattes/"
+    },
+    {
+        "title": "Ça pousse où le jambon ?",
+        "author": "Richard Monvoisin et Gra",
+        "year": 2025,
+        "price": "10,00 €",
+        "description": "« Dis papa, ça pousse où le jambon ? » La question simple, d’une petite fille avisée, va la précipiter avec son papa dans un ravin de réflexions inattendues. Balade philosophique pour animaux humains petits et grands.",
+        "url": "https://lestroiscanards.ouvaton.org/produit/ca-pousse-ou-le-jambon/"
+    },
+    {
+        "title": "Kléa apprend le consentement",
+        "author": "Anormally et Croüch",
+        "year": 2024,
+        "price": "10,00 €",
+        "description": "Kléa apprend le consentement est une BD destinée aux enfants à partir de 4 ans. Kléa se pose des questions sur les réactions différentes de ses chats alors qu’elle les gratouille.  Avec les deux matous sur le fauteuil, et son papa pédagogue, le sujet du consentement est amené tout en douceur.",
+        "url": "https://lestroiscanards.ouvaton.org/produit/klea-apprend-le-consentement/"
+    },
+    {
+        "title": "Kléa apprend le consentement",
+        "author": "Anormally et Croüch",
+        "year": 2019,
+        "price": "10,00 €",
+        "description": "Version papier du livre « À quoi tu joues? ». Un livre pour enfant qui parle de l’identité et des stéréotype de genre.",
+        "url": "https://lestroiscanards.ouvaton.org/produit/a-quoi-tu-joues/"
+    },
+    {
+        "title": "Juste un bisou",
+        "author": "Anormally et Croüch",
+        "year": 2021,
+        "price": "10,00 €",
+        "description": "Juste un bisou est un livre pour les enfants à partir de 2 ans, qui traite de la question du consentement et des bisous. Sacha a de la visite ! Voir ses tontons et sa mamie lui fait plaisir, mais… la perspective de devoir les embrasser le réjouit beaucoup moins. Saura-t-il les convaincre qu’il les aime fort, avec ou sans bisous ? L’histoire à été commandée par l’association bergeracoise Pitchounes et Grands sur la thématique des droits des enfants.",
+        "url": "https://lestroiscanards.ouvaton.org/produit/juste-un-bisou/"
+    },
+    {
+        "title": "L’Atelier des Miracles",
+        "author": "Benjamin Pichot-Gracia",
+        "year": 2023,
+        "price": "12,00 €",
+        "description": "L’Atelier des miracles raconte le quotidien d’un atelier participatif de vélo et de couture, et des personnes qui le fréquentent. Ensemble, elles raccommodent leurs affaires, réparent leurs vélos, partagent leurs idées, se soutiennent, embellissent leur quartier. Avec quelques bouts de ficelle, elles s’obstinent à mélanger sans manière, écologie, solidarité, beauté et dignité !",
+        "url": "https://lestroiscanards.ouvaton.org/produit/latelier-des-miracles/"
+    },
+    {
+        "title": "L’Atelier des Miracles",
+        "author": "Anormally et Croüch",
+        "year": 2023,
+        "price": "20,00 €",
+        "description": "Version papier du livre « Vent de face ». Une BD qui raconte, au travers de 12 témoignages, des discriminations liées au genre, à l’orientation sexuelle, aux situations de handicap….",
+        "url": "https://lestroiscanards.ouvaton.org/produit/prevente-de-vent-de-face/"
+    },
+    {
+        "title": "Des féministes dans quel genre ?",
+        "author": "Anormally",
+        "year": 2025,
+        "price": "8,00 €",
+        "description": "Des féministes dans quel genre ? est une mini-BD pédagogique qui défend l’inclusion des personnes trans dans le féminisme, en revenant sur l’histoire du féminisme, décortiquant l’argumentaire TERF, et proposant des pistes pour plus d’inclusivité.",
+        "url": "https://lestroiscanards.ouvaton.org/produit/des-feministes-dans-quel-genre/"
+    },
+    {
+        "title": "Viens on joue",
+        "author": "Julie Dessales et Margot Raillé",
+        "year": 2022,
+        "price": "10,00 €",
+        "description": "Viens on joue ! est un livre destinés aux enfants à partir de 2 ans qui rappelle que la seule chose qui compte quand on joue, c’est de s’amuser !",
+        "url": "https://lestroiscanards.ouvaton.org/produit/viens-on-joue/"
+    },
+    {
+        "title": "Yaya est différent... et alors ?",
+        "author": "Caroline Coudré et Croüch",
+        "year": 2023,
+        "price": "10,00 €",
+        "description": "Yaya est hypersensible, il perçoit tout de façon décuplée. Découvrez son univers sensoriel, avec les animaux qui le peuplent, dans une histoire toute douce qui met en avant la richesse des sens et des émotions.",
+        "url": "https://lestroiscanards.ouvaton.org/produit/yaya-est-different-et-alors/"
+    },
+    {
+        "title": "Coup deux barres",
+        "author": "Anormally et Croüch",
+        "year": 2022,
+        "price": "13,00 €",
+        "description": "Version papier du livre « Coup deux barres ». Un témoignage BD sur la thématique de la grossesse non désirée et de l’avortement.",
+        "url": "https://lestroiscanards.ouvaton.org/produit/coup-deux-barres/"
+    }
+  ]
+}
